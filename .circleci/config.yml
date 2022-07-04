@@ -378,4 +378,4 @@ workflows:
       # - cleanup:
       #     requires: [cloudfront-update]
       - notify_on_success:
-          requires: [test-frontend, test-backend, scan-frontend, scan-backend, deploy-infrastructure]
+          requires: [test-frontend, test-backend, scan-frontend, scan-backend, deploy-infrastructure, configure-infrastructure]
